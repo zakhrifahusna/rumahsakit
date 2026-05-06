@@ -27,6 +27,44 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Installation & Setup
+
+To get started with the Rumah Sakit (Hospital Management System) application, follow these steps:
+
+### Prerequisites
+- PHP 7.4 or higher
+- Composer
+- Node.js and npm
+
+### Setup Instructions
+
+1. **Install dependencies**
+   ```bash
+   composer install
+   ```
+
+2. **Copy environment file**
+   ```bash
+   copy .env.example .env
+   ```
+
+3. **Generate app key**
+   ```bash
+   php artisan key:generate
+   ```
+
+4. **Run migrations (if database is set up)**
+   ```bash
+   php artisan migrate
+   ```
+
+5. **Start the server**
+   ```bash
+   php artisan serve
+   ```
+
+The application will be accessible at `http://127.0.0.1:8000`
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
