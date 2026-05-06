@@ -53,9 +53,9 @@ To get started with the Aplikasi Pendaftaran Pasien Rawat Jalan di Rumah Sakit (
    php artisan key:generate
    ```
 
-4. **Run migrations (if database is set up)**
+4. **Run migrations with seeder (if database is set up)**
    ```bash
-   php artisan migrate
+   php artisan make:seeder UserSeeder
    ```
 
 5. **Start the server**
@@ -64,6 +64,12 @@ To get started with the Aplikasi Pendaftaran Pasien Rawat Jalan di Rumah Sakit (
    ```
 
 The application will be accessible at `http://127.0.0.1:8000`
+User Admin, Kepala RS, Petugas, dan Pasien
+username: admin
+username: kepala_rs
+username: petugas
+username: pasien
+all user password : password123
 
 ## Laravel Sponsors
 
