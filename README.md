@@ -64,12 +64,19 @@ To get started with the Aplikasi Pendaftaran Pasien Rawat Jalan di Rumah Sakit (
    ```
 
 The application will be accessible at `http://127.0.0.1:8000`
-User Admin, Kepala RS, Petugas, dan Pasien
-username: admin
-username: kepala_rs
-username: petugas
-username: pasien
-all user password : password123
+
+## 🔑 Demo Credentials
+
+You can use the following accounts to test the different roles in the application:
+
+| Role | Username | Password |
+| :--- | :--- | :--- |
+| **User Admin** | `admin` | `password123` |
+| **Kepala RS** | `kepala_rs` | `password123` |
+| **Petugas** | `petugas` | `password123` |
+| **Pasien** | `pasien` | `password123` |
+
+---
 
 ## Laravel Sponsors
 
