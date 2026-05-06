@@ -29,7 +29,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 ## Installation & Setup
 
-To get started with the Rumah Sakit (Hospital Management System) application, follow these steps:
+To get started with the Aplikasi Pendaftaran Pasien Rawat Jalan di Rumah Sakit (Outpatient Registration Application) application, follow these steps:
 
 ### Prerequisites
 - PHP 7.4 or higher
